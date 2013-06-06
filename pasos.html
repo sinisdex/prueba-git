@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <title>Mi proyecto de tesis</title>
+    </head>
+
+    <body>
+    	<nav id="menu">
+    		<ul>
+    			<li><a href="introduccion.html">Introducción</a></li>
+    			<li><a href="marco_teorico.html">Marco teórico</a></li>
+    			<li><a href="desarrollo.html">Desarrollo</a></li>
+    			<li><a href="referencias.html">Referencias</a></li>
+    			<li><a class="prueba" href="instrucciones.html">Instrucciones</a></li>
+                <li><a href="pasos.html">Pasos en git</a></li>
+    		</ul>
+    	</nav>
+    	<section id="contenido">
+    		<h1>PASOS</h1>
+    		<cite>Por Carlo Guggiana Díaz</cite>
+    		<hr>
+            <h2>NUMERO DOS</h2>
+            git clone https://github.com/cristn/prueba-git.git
+            <h2>NUMERO TRES</h2>
+            git add .gitignore
+            git commit -m "agregado gitignore"
+            <h2>NUMERO CUATRO</h2>
+            git add marco_teorico.html
+            git commit -m "agregado el marco teorico"
+            git add desarrollo.html
+            git commit -m "agregado el desarrollo"
+            git add referencias.html
+            git commit -m "agregadas las referencias"
+            <h2>NUMERO CINCO</h2>
+            git branch diseno
+            git checkout diseno
+            git add .
+            git commit -m "cambiadas las fuentes de body y menu"
+            git add .
+            git commit -m "cambiado el color del background"
+            <h2>NUMERO SEIS</h2>
+            git checkout diseno
+            git merge diseno
+
+    		<cite>Ejemplo del uso de Git</cite>
+    	</section>
+    </body>
+</html>
